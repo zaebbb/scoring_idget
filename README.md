@@ -101,18 +101,17 @@ See the [open issues](https://github.com/zaebbb/scoring_widget/issues) for a lis
 
 ## Участие
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/zaebbb/scoring_widget/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/zaebbb/scoring_widget/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+Вклад - это то, что делает сообщество с открытым исходным кодом таким удивительным местом для обучения, вдохновения и творчества. Мы высоко ценим любой ваш вклад.
+* Если у вас есть предложения по добавлению или удалению проектов, не стесняйтесь [открывать проблему](https://github.com/zaebbb/scoring_widget/issues/new), чтобы обсудить ее, или непосредственно создайте запрос на извлечение после редактирования README.md файл с необходимыми изменениями.
+* Пожалуйста, убедитесь, что вы проверили свою орфографию и грамматику.
+* Создайте индивидуальный PR для каждого предложения.
 
 
 
 
 ## Лицензия
 
-Distributed under the MIT License. See [LICENSE](https://github.com/zaebbb/scoring_widget/blob/main/LICENSE.md) for more information.
+Распространяется по лицензии MIT. 
 
 ## Автор
 

@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/zaebbb/scoring_widget">
-    <img src="https://github.com/zaebbb/scoring_widget/blob/main/public/logo192.png?raw=true" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/zaebbb/scoring_widget/main/public/Images/logos.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Виджет "Подбора очков"</h3>

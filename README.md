@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <a href="https://github.com/zaebbb/scoring_widget">
+    <img src="https://github.com/zaebbb/scoring_widget/blob/main/public/logo192.png?raw=true" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Виджет "Подбора очков"</h3>
 
-## Available Scripts
+  <p align="center">
+    Данный виджет разработан для участия в олимпиаде "Волга-IT 22"
+    <br/>
+    <br/>
+    <a href="https://github.com/zaebbb/scoring_widget"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://github.com/zaebbb/scoring_widget">View Demo</a>
+    .
+    <a href="https://github.com/zaebbb/scoring_widget/issues">Report Bug</a>
+    .
+    <a href="https://github.com/zaebbb/scoring_widget/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+![Downloads](https://img.shields.io/github/downloads/zaebbb/scoring_widget/total) ![Contributors](https://img.shields.io/github/contributors/zaebbb/scoring_widget?color=dark-green) ![Forks](https://img.shields.io/github/forks/zaebbb/scoring_widget?style=social) ![Stargazers](https://img.shields.io/github/stars/zaebbb/scoring_widget?style=social) ![Issues](https://img.shields.io/github/issues/zaebbb/scoring_widget) ![License](https://img.shields.io/github/license/zaebbb/scoring_widget) 
 
-### `npm start`
+## Table Of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Authors](#authors)
+* [Acknowledgements](#acknowledgements)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+![Screen Shot](https://sun9-22.userapi.com/s/v1/if2/HmuTjyWe3ec8S2pLq2BeI3zj2GrtwKMZsloVWzaSYPilF_aM3q1W348dbvHJBizckEulMgfKdCZEqESn9CmfC386.jpg?size=1280x647&quality=96&type=album)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Проект разработан для участия в олимпиаде "Волга IT 2022"
+Данный README.ME файл содержит инструкцию с помощью которой вы сможете интегрировать данный виджет на свой сайт.
+Также содержит инструкцию для добавления development версии данного виджета для дальнейшей доработки если вам необходимо!
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+При разработке были использованы следующие технологии:
+- React
+- HTML
+- CSS
+- JavaScript
+- GIT
+- VSCode
+- WebStorm
+- Figma
+- GitHub
+- Swiper
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Swiper](Swiper)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+В данной секции располагается инструкция для полной интеграции виджета на ваш сайт или для развертывания на вашем локальном компьютере для разработки или улучшения кода и программы в целом
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Для работы на сайте вам необходимо расположить сайт на хостинге или на локальном сервере (например openserver) который загружает ваши сайты с помощью Apache или Nginx. 
+Для скачивания вам необходимо загрузить последнюю версию в [releases](https://github.com/zaebbb/scoring_widget/releases/tag/widget), файл с наименованием widget.zip
+В нем содержится папка dist проекта
+Извлекать файлы из корневой папки необязательно, подлежит извлечению только папки. 
+Для наименьшего изменения содержимого файлов рекомендуется извлекать папки с файлами в корневую директорию вашего сайта
+<p align="center">
+<img src="https://sun3-8.userapi.com/s/v1/if2/RfWng8swuuwurkAiDN2DgN2TSX_MelwhOMERfsVchPDBf5QUAVfLZfNWxojgpxGB54z9N5ke7RtjAHbGq2GCO3dE.jpg?size=576x281&quality=96&type=album" width="400" />
+</p>
+Далее заходим в папке dist в файле [index.html](https://github.com/zaebbb/scoring_widget/blob/main/dist/index.html) копируем 4 строчки перед закрывающимся тегом "&#60;/head&#62;" и вставляем в HTML файл в котором будет располагаться виджет. Для отображения необходимо добавить следующих код в место расположения на сайте виджета:
+&#60;div id="glasses-quiz-widget" data-source="https://example.com/" class="widget"&#62;&#60;/div&#62;
+Если вы все сделали правильно должно отобразиться одна из двух примеров виджета:
+<p align="center">
+<img src="https://sun3-16.userapi.com/s/v1/if2/ARZTdxJFd6ROzM_PuVZhtLKVPKX3F_Pz0u0iJLE7qdxaHY0zY1zo4YK69wUblO9nVJN5lvi5IZsPJrJyG1lyMuYe.jpg?size=780x684&quality=96&type=album" width="400" />
+</p>
+В первом случае вы успешно завершили настройку виджета расположили его в корне файла, если вы расположили где то еще то следуйте инструкции далее: <br>
+1. Вам необходимо изменить в файле HTML где вы подключали файлы путь до локальных файлов изменив путь с /static/media... на путь от корня вашего сайта до вашего сайта например /site/assets/widget/static/media и т.п. с учетом ваших названий директорий<br>
+2. Также вам необходимо в файлах JS в папке static изменить все такие же названия /static/media... на наименования которые вы внесли в файл HTML.Сделать это можно с помощью редактора кода VSCode путем замены всех найденных значений с помощью CTRL + SHIFT + R. <br>
+После данных действий виджет должен открыться без проблем со всеми загруженными картинками!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Для установки development версии вам необходимо наличии NodeJS на вашем локальном компьютере. 
+Далее вам необходимо скачать весь проект, включая папки src, public а также все имеющиеся файлы, сделать это можно с помощью кнопки "Code" в GitHub. Далее после установки удаляем папку dist. <br>
+Далее в командной строке переходим в директорию куда вы скопировали проект.
+Вводим в командной строке: npm i <br>
+После данных действий программа установит все необходимые компоненты. <br>
+Development версия виджета установлена, вы можете ее запустить и разрабатывать или дорабатывать с помощью команды: npm start
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Данный виджет вы сможете встроить в любой ваш сайт
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Roadmap
 
-### Code Splitting
+See the [open issues](https://github.com/zaebbb/scoring_widget/issues) for a list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/zaebbb/scoring_widget/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* Please make sure you check your spelling and grammar.
+* Create individual PR for each suggestion.
+* Please also read through the [Code Of Conduct](https://github.com/zaebbb/scoring_widget/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Creating A Pull Request
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Distributed under the MIT License. See [LICENSE](https://github.com/zaebbb/scoring_widget/blob/main/LICENSE.md) for more information.
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* **Владимир Михайлов** - *Студент техникума ГАПОУ СО "Каменск-Уральский техникум торговли и сервиса"* - [Владимир Михайлов](https://github.com/zaebbb) - *Верстка и программирование виджета*
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

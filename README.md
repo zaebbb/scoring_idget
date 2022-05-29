@@ -13,8 +13,6 @@
     <a href="https://github.com/zaebbb/scoring_widget"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/zaebbb/scoring_widget">View Demo</a>
-    .
     <a href="https://github.com/zaebbb/scoring_widget/issues">Report Bug</a>
     .
     <a href="https://github.com/zaebbb/scoring_widget/issues">Request Feature</a>
@@ -33,11 +31,10 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+* [Лицензия](#license)
+* [Автор](#authors)
 
-## About The Project
+## О проекте
 
 ![Screen Shot](https://sun9-22.userapi.com/s/v1/if2/HmuTjyWe3ec8S2pLq2BeI3zj2GrtwKMZsloVWzaSYPilF_aM3q1W348dbvHJBizckEulMgfKdCZEqESn9CmfC386.jpg?size=1280x647&quality=96&type=album)
 
@@ -45,7 +42,7 @@
 Данный README.ME файл содержит инструкцию с помощью которой вы сможете интегрировать данный виджет на свой сайт.
 Также содержит инструкцию для добавления development версии данного виджета для дальнейшей доработки если вам необходимо!
 
-## Built With
+## Рабочее пространство
 
 При разработке были использованы следующие технологии:
 - React
@@ -59,13 +56,12 @@
 - GitHub
 - Swiper
 
-* [Swiper](Swiper)
 
-## Getting Started
+## Предустановки
 
 В данной секции располагается инструкция для полной интеграции виджета на ваш сайт или для развертывания на вашем локальном компьютере для разработки или улучшения кода и программы в целом
 
-### Prerequisites
+### Интеграция в сайт, веб-приложение
 
 Для работы на сайте вам необходимо расположить сайт на хостинге или на локальном сервере (например openserver) который загружает ваши сайты с помощью Apache или Nginx. 
 Для скачивания вам необходимо загрузить последнюю версию в [releases](https://github.com/zaebbb/scoring_widget/releases/tag/widget), файл с наименованием widget.zip
@@ -86,7 +82,7 @@
 2. Также вам необходимо в файлах JS в папке static изменить все такие же названия /static/media... на наименования которые вы внесли в файл HTML.Сделать это можно с помощью редактора кода VSCode путем замены всех найденных значений с помощью CTRL + SHIFT + R. <br>
 После данных действий виджет должен открыться без проблем со всеми загруженными картинками!
 
-### Installation
+### Development установка
 
 Для установки development версии вам необходимо наличии NodeJS на вашем локальном компьютере. 
 Далее вам необходимо скачать весь проект, включая папки src, public а также все имеющиеся файлы, сделать это можно с помощью кнопки "Code" в GitHub. Далее после установки удаляем папку dist. <br>
@@ -95,15 +91,15 @@
 После данных действий программа установит все необходимые компоненты. <br>
 Development версия виджета установлена, вы можете ее запустить и разрабатывать или дорабатывать с помощью команды: npm start
 
-## Usage
+## Допонительно
 
 Данный виджет вы сможете встроить в любой ваш сайт
 
-## Roadmap
+## Карта 
 
 See the [open issues](https://github.com/zaebbb/scoring_widget/issues) for a list of proposed features (and known issues).
 
-## Contributing
+## Участие
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 * If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/zaebbb/scoring_widget/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
@@ -111,15 +107,14 @@ Contributions are what make the open source community such an amazing place to b
 * Create individual PR for each suggestion.
 * Please also read through the [Code Of Conduct](https://github.com/zaebbb/scoring_widget/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
-### Creating A Pull Request
 
 
 
-## License
+## Лицензия
 
 Distributed under the MIT License. See [LICENSE](https://github.com/zaebbb/scoring_widget/blob/main/LICENSE.md) for more information.
 
-## Author
+## Автор
 
 * **Владимир Михайлов** - *Студент техникума ГАПОУ СО "Каменск-Уральский техникум торговли и сервиса"* - [Владимир Михайлов](https://github.com/zaebbb) - *Верстка и программирование виджета*
 
